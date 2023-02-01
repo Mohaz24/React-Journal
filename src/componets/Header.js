@@ -5,6 +5,7 @@ export default function Header(){
         <div id="container">
         <img src="../images/Fill.png" alt="" className="header---logo" />
         <span className="header---title">my travel journal.</span>
-        </div>
+      </div>
+      
     )
 }
