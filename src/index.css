@@ -9,9 +9,11 @@ body {
 }
 
 :root{
-  --font-family: 'Inter', sans-serif;
+   font-family: 'Inter',sans-serif;
+  --color: #2B283A;
+  --font-size: 11px;
 }
-
+/* Header style */
 #container{
   display: flex;
   justify-content: center;
@@ -26,4 +28,77 @@ body {
   letter-spacing: -0.075em;
   color: #FFFFFF;
 }
+
+/* Hero styling */
+.container---hero{
+  display: flex;
+  align-items: center;
+  height: 30vh;
+}
+
+a{
+   margin: 0px 12px;
+   font-family: var(--font-family);
+   font-weight: 400;
+   font-size: var(--font-size);
+   line-height: 12px;
+   text-decoration-line: underline;
+   color: #918E9B;
+}
+ .hero---title{
+     padding: 7px;
+     
+ }
+
+.info---section{
+  
+}
+.hero---images{
+    width: 125px;
+    height: 168px;
+    margin-top: 0px;
+    margin-left: 8px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+#pic{
+  margin: 0px 4px;
+  object-fit: cover;
+}
+
+
+.hero---location{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: var(--color);
+   
+}
+.info---date---section{
+    font-family: var(--font-family);
+    color: var(--color);
+    font-weight: 700;
+    font-size: var(--font-size);
+    line-height: 12px;
+    margin: 5px;
+}
+.hero---text{
+    font-family: var(--font-family);
+    color: var(--color);
+    font-size: var(--font-size);
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 9px;
+}
+
+
+.info---border{
+   width: 478px;
+   height: 0px;
+   border: 1px solid #F5F5F5;
+}
+
+
 
